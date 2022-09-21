@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/heintayzar-hm/portfolio-1-microverse#readme",
   "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
     "hint": "^7.1.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
