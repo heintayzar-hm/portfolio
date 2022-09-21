@@ -28,3 +28,8 @@ npm install
 ### Run tests
 You can just go index.html file and run it.
 ### Deployment
+
+## Contact me
+Github:https://github.com/heintayzar-hm/
+LinkedIn:https://www.linkedin.com/in/hein-tay-zar/
+Twitter:@heintayzarhm
