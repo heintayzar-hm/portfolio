@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .navbar {
     display: flex;
     flex-direction: row;
@@ -24,7 +24,6 @@
   .header-background-mobile {
     background-image: url("resources/header-shapes\ mobile.svg");
     height: 587.15px;
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -86,4 +85,46 @@
     justify-content: space-between;
     height: 20px;
   }
+}
+
+/* @media (max-width: 960px) {  }
+@media (max-width: 1440px) {  } */
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
+  background: #6070ff;
+  border-radius: 8px;
+}
+
+*.enabled {
+  background: #fff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.button-link:active {
+  background: #2230d2;
+  border-radius: 8px;
+}
+
+*:disabled {
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 1px;
 }
