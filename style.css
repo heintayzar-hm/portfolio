@@ -18,7 +18,7 @@
     align-items: center;
     text-align: center;
     color: #6070ff;
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
   }
 
   .header-background-mobile {
@@ -32,7 +32,7 @@
 
   .primary-text1 {
     width: 327px;
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -56,7 +56,7 @@
     color: #344563;
     margin-left: 24px;
     margin-right: 24px;
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
   }
 
   .primary-text-container {
@@ -67,7 +67,7 @@
   }
 
   .social-media-text {
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -138,7 +138,7 @@
   .card-header-text {
     width: 295px;
     height: 36px;
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -167,7 +167,7 @@
   }
 
   .card-header-frame-client-text {
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -187,7 +187,7 @@
   .card-header-frame-role-text {
     width: 88px;
     height: 16px;
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -207,7 +207,7 @@
   .card-header-frame-year-text {
     width: 29px;
     height: 16px;
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -224,7 +224,7 @@
   .card-description {
     width: 295px;
     height: 76px;
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -253,7 +253,7 @@
   }
 
   .card-tag-text {
-    font-family: 'Poppins', var(--font-family-common);
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -387,7 +387,7 @@ ul {
 }
 
 .select-text {
-  font-family: 'Poppins', var(--font-family-common);
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
