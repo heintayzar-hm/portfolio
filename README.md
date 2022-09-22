@@ -32,4 +32,4 @@ You can just go index.html file and run it.
 ## Contact me
 Github:https://github.com/heintayzar-hm/
 LinkedIn:https://www.linkedin.com/in/hein-tay-zar/
-Twitter:@heintayzarhm
+Twitter:https://twitter.com/heintayzarhm
