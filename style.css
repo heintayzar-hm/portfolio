@@ -88,9 +88,8 @@
 
   .main-card-container {
     display: grid;
-    padding: 114px;
+    margin: 24px;
     gap: 88px;
-    background: #e5e5e5;
     align-items: center;
     justify-content: center;
   }
@@ -145,6 +144,7 @@
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
+    margin: 0;
   }
 
   .card-header-frame {
@@ -234,7 +234,7 @@
 
   .card-tags {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 1px;
     gap: 8px;
@@ -247,15 +247,12 @@
     flex-direction: row;
     align-items: center;
     padding: 4px 12px;
-    width: 53px;
     height: 24px;
     background: #ebebff;
     border-radius: 8px;
   }
 
   .card-tag-text {
-    width: 29px;
-    height: 16px;
     font-family: 'Poppins', var(--font-family-common);
     font-style: normal;
     font-weight: 500;
@@ -287,27 +284,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 114px 24px;
     gap: 24px;
   }
 
   .about-me-top-section {
-    height: auto;
+    margin: 114px 24px 24px 10px;
   }
 
   .about-me-header {
-    width: 100px;
-    height: 10px;
+    margin: 0;
   }
 
-  .about-me-decription {
+  .about-me-description {
     width: 327px;
     height: 144px;
+    margin: 0;
+  }
+
+  /* .about-me-skill-list{
+    margin-left: 24px;
+  } */
+
+  .about-me-social-icons {
+    margin: 0 0 12px 0;
+  }
+
+  .about-me-social-text {
+    margin: 0 0 12px 0;
   }
 
   .about-me-button {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 0;
+  }
+
+  .work {
+    background: #e5e5e5;
+    padding-top: 114px;
   }
 
   .frame-1 {
@@ -337,6 +349,8 @@ a:active {
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
+  width: 162px;
+  height: 48px;
 }
 
 .button-link:hover {
@@ -369,7 +383,7 @@ a:active {
 
 ul {
   list-style-type: none;
-  padding-inline-start: 1px;
+  padding-inline-start: 0;
 }
 
 .select-text {
@@ -387,6 +401,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 36px;
 }
 
 .select-svg {
@@ -395,4 +410,25 @@ ul {
   padding: 8px;
   width: 40px;
   height: 40px;
+}
+
+.select-items {
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.select-items-text {
+  margin: 16px 21px 12px 21.72px;
+}
+
+.about-me-svg {
+  margin-right: 12px;
 }
