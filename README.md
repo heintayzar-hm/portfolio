@@ -12,7 +12,7 @@ Html and Css
 
 ## Getting Started
 
-npm clone https://github.com/heintayzar-hm/portfolio-1-microverse.git
+git clone https://github.com/heintayzar-hm/portfolio-1-microverse.git
 
 
 To get a local copy up and running follow these simple example steps.
