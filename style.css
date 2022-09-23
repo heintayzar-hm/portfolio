@@ -99,10 +99,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 16px;
     gap: 12px;
-    width: 327px;
-    height: 552px;
+    padding: 16px;
+    height: 540px;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -119,17 +118,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 1px;
+    padding: 0;
     gap: 12px;
     width: 295px;
-    height: 288px;
+    height: 332px;
   }
 
   .card-header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 1px;
+    padding: 0;
     gap: 12px;
     width: 295px;
     height: 80px;
@@ -236,7 +235,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1px;
+    padding-bottom: 10px;
     gap: 8px;
     width: 203px;
     height: 24px;
@@ -279,16 +278,20 @@
 
   .about-me {
     background: #fff;
-    width: 375px;
     height: 1125.15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    border-top-right-radius: 50px;
   }
 
   .about-me-top-section {
     margin: 114px 24px 24px 10px;
+  }
+
+  .w-162 {
+    width: 162px;
   }
 
   .about-me-header {
@@ -297,6 +300,7 @@
 
   .about-me-description {
     width: 327px;
+    padding-bottom: 12px;
     height: 144px;
     margin: 0;
   }
@@ -306,11 +310,11 @@
   } */
 
   .about-me-social-icons {
-    margin: 0 0 12px 0;
+    margin: 0 0 22px 0;
   }
 
   .about-me-social-text {
-    margin: 0 0 12px 0;
+    margin: 0 0 24px 0;
   }
 
   .about-me-button {
@@ -320,6 +324,7 @@
   .work {
     background: #e5e5e5;
     padding-top: 114px;
+    padding-bottom: 114px;
   }
 
   .frame-1 {
@@ -344,12 +349,18 @@ a:active {
 
 .button-link {
   align-items: center;
-  padding: 12px;
   gap: 10px;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
-  width: 162px;
   height: 48px;
 }
 
@@ -406,6 +417,7 @@ ul {
 
 .select-svg {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 8px;
   width: 40px;
