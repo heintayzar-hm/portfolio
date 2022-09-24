@@ -2,9 +2,16 @@
   .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 2px;
+    margin-top: 44px;
+  }
+
+  .header-container {
+    width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .mylogos {
@@ -26,7 +33,7 @@
     height: 587.15px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     max-width: 100%;
   }
 
@@ -41,8 +48,6 @@
     align-items: center;
     text-align: left;
     color: #172b4d;
-    margin-left: 24px;
-    margin-right: 24px;
     height: 150px;
   }
 
@@ -54,36 +59,39 @@
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    margin-left: 24px;
-    margin-right: 24px;
     font-family: 'Poppins', sans-serif;
   }
 
   .primary-text-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 100%;
   }
 
   .social-media-text {
+    width: 327px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
     color: #7f8cff;
   }
 
   .social-media-icons-container {
     display: flex;
-    width: 170.17px;
-    margin-left: 24px;
-    margin-right: 24px;
-    justify-content: space-between;
+    width: 327px;
     height: 20px;
+  }
+
+  .resume {
+    width: 327px;
+  }
+
+  .social-media-icons {
+    margin-right: 18px;
   }
 
   .main-card-container {
@@ -466,4 +474,8 @@ ul {
 
 .about-me-svg {
   margin-right: 12px;
+}
+
+body {
+  margin: 0;
 }
