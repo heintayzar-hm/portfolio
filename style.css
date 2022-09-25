@@ -1,3 +1,16 @@
+@import "animation.css";
+
+.margin-0 {
+  margin: 0;
+}
+
+.gradient-to-right {
+  background: -webkit-linear-gradient(-225deg, red, #000b6e, rgba(22, 205, 22, 0.963));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media only screen and (max-width: 576px) {
   .navbar {
     display: flex;
@@ -44,7 +57,6 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    display: flex;
     align-items: center;
     text-align: left;
     color: #172b4d;
@@ -478,4 +490,5 @@ ul {
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }

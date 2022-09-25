@@ -1,0 +1,107 @@
+@media only screen and (max-width: 576px) {
+  .animate-header {
+    background-image: linear-gradient(-225deg, #00f3ff 0%, #ed00e5 29%, rgb(8, 239, 0) 67%, #000b6e 100%);
+    background-size: auto auto;
+    background-size: 200% auto;
+    background-clip: text;
+    text-decoration-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s ease infinite;
+  }
+
+  .animate-lets-connect {
+    background-image: linear-gradient(-225deg, rgb(237, 0, 0), rgb(28, 0, 155));
+    background-size: auto auto;
+    background-size: 200% auto;
+    background-clip: text;
+    text-decoration-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s ease infinite;
+  }
+
+  .position-loader-1 {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: -10%;
+    right: 0;
+    bottom: 0;
+  }
+
+  .animation-loader {
+    border: 20px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 20px solid #6070ff;
+    border-right: 20px solid #6070ff;
+    border-bottom: 20px solid #6070ff;
+    border-left: 20px solid #fff;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  .position-box-1 {
+    position: absolute;
+    z-index: -1;
+    right: 1%;
+    bottom: 20%;
+  }
+
+  .animate-box {
+    background-color: #e5e5e5;
+    width: 130px;
+    height: 20px;
+    animation: changecolor 3s ease infinite;
+  }
+
+  .animation-card {
+    animation: rotateAnimation 1s linear;
+  }
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: blue;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    background-color: red;
+    transform: rotate(360deg);
+  }
+
+  100% {
+    background-color: green;
+    transform: rotate(-1000deg);
+  }
+}
+
+@keyframes rotateAnimation {
+  from { transform: rotateY(360deg); }
+  to { transform: rotateY(0deg); }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes textclip {
+  to {
+    background-position: -200% -150%;
+  }
+}
