@@ -252,9 +252,8 @@
   }
 
   .card-tags {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   float:left;
+   display:flex;
     padding-bottom: 10px;
     gap: 8px;
     width: 203px;
