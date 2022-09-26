@@ -14,10 +14,10 @@
     <header class="navbar">
         <div class="header-container">
             <a href="#" class="link" target="_self">
-                <div class="mylogos">My Logo</div>
+                <div class="mylogos p-for-textbox">My Logo</div>
             </a>
-            <nav class="menuicons">
-                <svg class="icons" width="18" height="12" viewBox="0 0 18 12" fill="none"
+            <nav>
+                <svg class="icons hidden-if-large" width="18" height="12" viewBox="0 0 18 12" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0
                             0.447715 0.447715 0 1 0H17C17.5523 0 18 0.447715 18 1C18
@@ -28,15 +28,20 @@
                             12H17C17.5523 12 18 11.5523 18 11C18 10.4477 17.5523 10
                             17 10H1Z" fill="#6070FF" />
                 </svg>
+                <ul class="menu show-if-large hidden-if-small">
+                    <li class="p-for-textbox"><span class="text">Portfolio</span></li>
+                    <li class="p-for-textbox"><span class="text">About</span></li>
+                    <li class="p-for-textbox"><span class="text">Contact</span></li>
+                </ul>
             </nav>
         </div>
     </header>
-    <section class="header-background-mobile">
+    <section class="header-background content-position">
         <div class="animation-loader position-loader-1"></div>
         <div class="animate-box position-box-1"></div>
         <div class="primary-text-container">
             <h1 class="primary-text1 margin-0">
-                I&#39m <span class="animate-header">Mariane</span> Glad to see you!
+                I&#39m <span class="animate-header">Mariane</span> <br />Glad to see you!
             </h1>
             <p class="primary-text2 margin-0 gradient-to-right">
                 I&#39m a software developer! I can help you build a
@@ -711,7 +716,6 @@
     </section>
 
     </div>
-
 </body>
 
 </html>

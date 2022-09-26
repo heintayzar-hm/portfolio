@@ -1,14 +1,8 @@
 @import "animation.css";
+@import "desktop_version.css";
 
 .margin-0 {
   margin: 0;
-}
-
-.gradient-to-right {
-  background: -webkit-linear-gradient(-225deg, red, #000b6e, rgba(22, 205, 22, 0.963));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 576px) {
@@ -18,6 +12,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 44px;
+  }
+
+  .gradient-to-right {
+    background: -webkit-linear-gradient(-225deg, red, #000b6e, rgba(22, 205, 22, 0.963));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .header-container {
@@ -41,7 +42,11 @@
     font-family: 'Poppins', sans-serif;
   }
 
-  .header-background-mobile {
+  .hidden-if-small {
+    display: none;
+  }
+
+  .header-background {
     background-image: url("resources/header-shapes\ mobile.svg");
     height: 587.15px;
     background-repeat: no-repeat;
@@ -80,6 +85,7 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
+    width: auto;
   }
 
   .social-media-text {
@@ -90,12 +96,6 @@
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
-  }
-
-  .social-media-icons-container {
-    display: flex;
-    width: 327px;
-    height: 20px;
   }
 
   .resume {
@@ -375,6 +375,12 @@ a:active {
   text-decoration: none;
 }
 
+.social-media-icons-container {
+  display: flex;
+  width: 327px;
+  height: 20px;
+}
+
 .button-link {
   align-items: center;
   gap: 10px;
@@ -404,6 +410,13 @@ a:active {
   background: #6070ff;
   border-radius: 8px;
   color: #fff;
+}
+
+.primary-text-container-helper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 *.enabled {
