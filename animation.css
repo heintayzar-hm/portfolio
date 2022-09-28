@@ -1,4 +1,4 @@
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
   .animate-header {
     background-image: linear-gradient(-225deg, #00f3ff 0%, #ed00e5 29%, rgb(8, 239, 0) 67%, #000b6e 100%);
     background-size: auto auto;

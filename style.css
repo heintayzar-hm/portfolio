@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
   .navbar {
     display: flex;
     flex-direction: row;
@@ -542,6 +542,10 @@
     letter-spacing: 0.03em;
     margin: 16px 21px 12px 21.72px;
   }
+
+  .about-me-svg {
+    margin-right: 12px;
+  }
 }
 
 /* @media (max-width: 960px) {  }
@@ -661,10 +665,6 @@ ul {
   padding: 8px;
   width: 40px;
   height: 40px;
-}
-
-.about-me-svg {
-  margin-right: 12px;
 }
 
 body {

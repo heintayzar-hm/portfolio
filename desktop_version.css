@@ -1,4 +1,4 @@
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
   .hidden-if-large {
     display: none;
   }
@@ -303,6 +303,12 @@
     margin-left: 10px;
   }
 
+  .about-me-svg {
+    margin: 0;
+    width: 48px;
+    height: 48px;
+  }
+
   .about-me-social-text {
     margin: 0 0 20px 0;
     font-weight: 500;
@@ -340,9 +346,9 @@
   }
 
   .select-dropdown {
-    grid-template-columns: 20% 20% 20%;
-    display: grid;
+    display: flex;
     justify-content: flex-start;
+    gap: 1.75438%;
   }
 
   .select-text-color {
@@ -353,16 +359,20 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 70%;
     line-height: 20px;
     color: #253858;
+    padding-top: 12px;
   }
 
   .select-items {
-    padding-left: 12px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 1%;
+    width: 17%;
+    border-radius: 8px;
+    background: #f7f7f9;
   }
 
   ul {
