@@ -107,6 +107,7 @@
     background-position: -200% -150%;
   }
 }
+<<<<<<< Updated upstream
 
 @keyframes colorBorder {
   0% {
@@ -143,4 +144,12 @@
     border-bottom: 40px solid #8a36ff;
     border-left: 40px solid #8a36ff;
   }
+=======
+.animate-logo {
+  transition: transform .7s ease-in-out;
+}
+
+.animate-logo:hover {
+  transform: rotate(360deg);
+>>>>>>> Stashed changes
 }
