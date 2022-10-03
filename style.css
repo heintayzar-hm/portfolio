@@ -347,7 +347,7 @@
   }
 
   .contact-section {
-    background-image: url('resources/Contact\ me.svg');
+    background-image: url('resources/contact_form_bg.svg');
     height: 779px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -545,6 +545,10 @@
 
   .about-me-svg {
     margin-right: 12px;
+  }
+
+  .border-bottom-px {
+    border-bottom: 1px solid #def1e6;
   }
 }
 
