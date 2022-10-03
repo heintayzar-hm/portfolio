@@ -257,7 +257,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #396df2;
+    color: rgb(0 16 159);
   }
 
   .card-block {
@@ -313,7 +313,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #396df2;
   }
 
   .about-me-button {
@@ -422,7 +422,7 @@
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #ebebff;
+    color: #fff;
     margin: 0 10% 12px 10%;
   }
 
@@ -507,7 +507,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 8px;
-    color: #6070ff;
+    color: #396df2;
     height: 48px;
     padding: 12px 16px;
   }
