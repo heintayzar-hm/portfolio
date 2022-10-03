@@ -381,7 +381,6 @@
   .contact-me-form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     width: 327px;
     padding-bottom: 45px;
   }
@@ -598,6 +597,10 @@ p {
   padding-right: 12px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .button-link:hover {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -642,6 +645,10 @@ p {
 
 .none {
   display: none;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 .about-me-select-text {

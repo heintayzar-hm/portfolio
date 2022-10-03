@@ -30,9 +30,6 @@
     </header>
     <section class="header-background content-position">
         <img src="resources/index_header_bg.svg" alt="header_bg" class="background hidden-if-small">
-        <div class="animation-loader position-loader-1"></div>
-        <div class="animation-loader-2 animate-colorboder position-loader-2"></div>
-        <div class="animate-box position-box-1"></div>
         <div class="primary-text-container m-p-19">
             <h1 class="primary-text1 margin-0">
                 I&#39;m <span class="animate-header">Hein</span><br>
@@ -323,12 +320,12 @@
         <h4 class="contact-me-header">Contact Me</h4>
         <p class="contact-me-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I&#39;d love to help with it </p>
         <form class="contact-me-form" action="https://formspree.io/f/mqkjqlzl" method="post">
-            <label for="name" id="name" class="none">Name</label>
+            <label for="name" id="name" class="invisible">Name</label>
         <input class="contact-me-form-name" name="name" type="text" placeholder="Full name" maxlength="30" pattern=".{0,29}" required>
-        <label for="email" id="email" class="none">Email</label>
+        <label for="email" id="email" class="invisible">Email</label>
         <input class="contact-me-form-email" name="email" type="email" placeholder="Email address" required>
-        <label for="message" id="message" class="none">Message</label>
-        <textarea name="message" class="contact-me-form-textarea" placeholder="Write your messages here" maxlength="500" required></textarea>
+        <label for="message" id="message" class="invisible">Message</label>
+        <textarea name="message" class="contact-me-form-textarea mb-20" placeholder="Write your messages here" maxlength="500" required></textarea>
         <div class="contact-me-form-button-container">
             <div class="resume translate-bg">
         <button type="submit" class="contact-me-form-button translate-button"><span  class="button-link-text">Get it touch</span></button>
