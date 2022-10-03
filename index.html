@@ -747,7 +747,7 @@
         <h4 class="contact-me-header">Contact Me</h4>
         <p class="contact-me-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I&#39d love to help with it </p>
         <form class="contact-me-form" action="https://formspree.io/f/mqkjqlzl" method="post">
-        <input class="contact-me-form-name" name="Name" type="name" placeholder="Full name" maxlength="30" required>
+        <input class="contact-me-form-name" name="Name" type="name" placeholder="Full name" maxlength="30" pattern=".{0,29}" required>
         <input class="contact-me-form-email" name="Email" type="email" placeholder="Email address" required>
         <textarea name="message" class="contact-me-form-textarea" placeholder="Write your messages here" maxlength="500" required></textarea>
         <div class="contact-me-form-button-container">
