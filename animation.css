@@ -1,3 +1,5 @@
+@import url('desktop_animation.css');
+
 @media only screen and (max-width: 767px) {
   .animate-header {
     background-image: linear-gradient(-225deg, #00f3ff 0%, #ed00e5 29%, rgb(8, 239, 0) 67%, #000b6e 100%);
@@ -21,15 +23,6 @@
     animation: textclip 2s ease infinite;
   }
 
-  .position-loader-1 {
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    left: -10%;
-    right: 0;
-    bottom: 0;
-  }
-
   .animation-loader {
     border: 20px solid #f3f3f3;
     border-radius: 50%;
@@ -43,13 +36,6 @@
     animation: spin 2s linear infinite;
   }
 
-  .position-box-1 {
-    position: absolute;
-    z-index: -1;
-    right: 1%;
-    bottom: 20%;
-  }
-
   .animate-box {
     background-color: #e5e5e5;
     width: 130px;
@@ -59,6 +45,22 @@
 
   .animation-card {
     animation: rotateAnimation 1s linear;
+  }
+
+  .position-box-1 {
+    position: absolute;
+    z-index: -1;
+    right: 10%;
+    top: 60%;
+  }
+
+  .position-loader-1 {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: -10%;
+    right: 0;
+    bottom: 0;
   }
 }
 
@@ -103,5 +105,42 @@
 @keyframes textclip {
   to {
     background-position: -200% -150%;
+  }
+}
+
+@keyframes colorborder {
+  0% {
+    border-top: 40px solid #000e89;
+    border-right: 40px solid #000e89;
+    border-bottom: 40px solid #000e89;
+    border-left: 40px solid #fff;
+  }
+
+  25% {
+    border-top: 40px solid #893900;
+    border-right: 40px solid #893900;
+    border-bottom: 40px solid #893900;
+    border-left: 40px solid #fff;
+  }
+
+  50% {
+    border-top: 40px solid #764cff;
+    border-right: 40px solid #764cff;
+    border-bottom: 40px solid #fff;
+    border-left: 40px solid #764cff;
+  }
+
+  75% {
+    border-top: 40px solid #7c1b62;
+    border-right: 40px solid #7c1b62;
+    border-bottom: 40px solid #7c1b62;
+    border-left: 40px solid #fff;
+  }
+
+  100% {
+    border-top: 40px solid #8a36ff;
+    border-right: 40px solid #fff;
+    border-bottom: 40px solid #8a36ff;
+    border-left: 40px solid #8a36ff;
   }
 }
