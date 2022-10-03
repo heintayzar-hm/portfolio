@@ -347,14 +347,16 @@
   }
 
   .contact-section {
-    background-image: url('resources/contact_form_bg.svg');
     height: 779px;
+    background: #6070ff;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-top-left-radius: 200px 200px;
+    padding-bottom: 30px;
   }
 
   .contact-me-header {

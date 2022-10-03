@@ -51,7 +51,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #6070ff;
+    color: #396df2;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -214,7 +214,6 @@
     font-size: 18px;
     line-height: 24px;
     color: #6b778c;
-    color: #7a869a;
   }
 
   .card-header-frame-counter {
@@ -258,7 +257,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070ff;
+    color: #396df2;
   }
 
   .card-block {
@@ -385,7 +384,8 @@
   }
 
   .contact-section {
-    background-image: url('resources/contact\ form-\ background-shape-desktop\ \(1\).svg');
+    border-top-left-radius: 200px 200px;
+    background: #6070ff;
     height: 779px;
     background-repeat: no-repeat;
     background-size: cover;
