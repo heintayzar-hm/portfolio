@@ -640,6 +640,10 @@ p {
   color: inherit;
 }
 
+.none {
+  display: none;
+}
+
 .about-me-select-text {
   align-items: center;
   justify-content: space-between;
