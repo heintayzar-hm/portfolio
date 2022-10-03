@@ -9,7 +9,7 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 2s ease infinite;
   }
-  
+
   .animate-lets-connect {
     background-image: linear-gradient(-225deg, rgb(237, 0, 0), rgb(28, 0, 155));
     background-size: auto auto;
@@ -20,7 +20,7 @@
     -webkit-text-fill-color: transparent;
     animation: textclip 2s ease infinite;
   }
-  
+
   .animation-loader {
     border: 70px solid #f3f3f3;
     border-radius: 50%;
@@ -45,28 +45,31 @@
     height: 150px;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
-    -webkit-animation: colorBorder 5s ease-in infinite;
-    animation: colorBorder 5s ease-in infinite;
   }
-  
+
+  .animate-colorboder {
+    -webkit-animation: colorborder 5s ease-in infinite;
+    animation: colorborder 5s ease-in infinite;
+  }
+
   .animate-box {
     background-color: #e5e5e5;
     width: 15%;
     height: 3%;
     animation: changecolor 3s ease infinite;
   }
-  
+
   .animation-card {
     animation: rotateAnimation 1s linear;
   }
-  
+
   .position-box-1 {
     position: absolute;
     z-index: -1;
     right: 10%;
     top: 60%;
   }
-  
+
   .position-loader-1 {
     position: absolute;
     z-index: -1;
@@ -81,7 +84,7 @@
   }
 
   .gradient-to-right {
-    background: -webkit-linear-gradient(-225deg, rgb(170, 0, 255), #000b6e, #ff0000);
+    background: -webkit-linear-gradient(-225deg, rgb(170, 0, 255), #000b6e, #f00);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -94,7 +97,7 @@
   }
 
   .translate-button:hover {
-    transform: translate(5px,-5px);
+    transform: translate(5px, -5px);
   }
 
   a {
@@ -102,22 +105,24 @@
     position: relative;
     display: inline-block;
   }
-  
+
   a::before,
   a::after {
-   content: '';
+    content: '';
     position: absolute;
     width: 100%;
     left: 0;
   }
+
   a::before {
     background-color: red;
     height: 2px;
     bottom: 0;
     transform-origin: 100% 50%;
     transform: scaleX(0);
-    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
   }
+
   a::after {
     content: attr(data-replace);
     font-weight: 500;
@@ -127,33 +132,25 @@
     top: 0;
     transform-origin: 100% 50%;
     transform: translate3d(200%, 0, 0);
-    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
     color: #54b3d6;
   }
-  
+
   a:hover::before {
     transform-origin: 0% 50%;
     transform: scaleX(1);
   }
+
   a:hover::after {
     transform: translate3d(0, 0, 0);
   }
-  
+
   a span {
     display: inline-block;
-    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
   }
-  
+
   a:hover span {
     transform: translate3d(-200%, 0, 0);
   }
-
-  a {
-    text-decoration: none;
-    color: #18272F;
-    font-weight: 700;
-    vertical-align: top;
-  }
-  
-} 
-  
+}
