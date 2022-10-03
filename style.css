@@ -690,3 +690,31 @@ textarea {
 .w-162 {
   width: 162px;
 }
+
+input:invalid {
+  animation: shakeX 0.3s;
+  border: solid 1px red;
+}
+
+textarea:invalid {
+  animation: shakeX 0.3s;
+  border: solid 1px red;
+}
+
+textarea:valid {
+  border: solid 1px black;
+}
+
+input:valid {
+  border: solid 1px black;
+}
+
+form:invalid {
+  animation: shakeX 0.3s;
+}
+
+@keyframes shakeX {
+  25% { transform: translateX(4px); }
+  50% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
