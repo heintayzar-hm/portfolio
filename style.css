@@ -1,17 +1,75 @@
 @import url('animation.css');
 @import url('desktop_version.css');
 
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
 .margin-0 {
   margin: 0;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(7px);
+}
+
+.mobile-menu img {
+  position: absolute;
+  top: 62px;
+  right: 10.13%;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  list-style-type: none;
+  position: absolute;
+  top: 106px;
+  left: 28px;
+}
+
+.mobile-menu ul li a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.hidden {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {
   .navbar {
     display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 44px;
+    padding: 15px 0 15px 0;
   }
 
   .gradient-to-right {
@@ -422,7 +480,6 @@
     justify-content: center;
     align-items: center;
     height: 140px;
-    z-index: 2;
   }
 
   .contact-me-form-name:focus {
@@ -551,17 +608,64 @@
   .border-bottom-px {
     border-bottom: 1px solid #def1e6;
   }
+
+  a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+
+  a::before,
+  a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+
+  a::before {
+    background-color: red;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  a::after {
+    content: attr(data-replace);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #54b3d6;
+  }
+
+  a:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+  }
+
+  a:hover::after {
+    transform: translate3d(0, 0, 0);
+  }
+
+  a span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  a:hover span {
+    transform: translate3d(-200%, 0, 0);
+  }
 }
 
 /* @media (max-width: 960px) {  }
 @media (max-width: 1440px) {  } */
-a,
-a:hover,
-a:focus,
-a:active {
-  color: inherit;
-  text-decoration: none;
-}
 
 .social-media-icons-container {
   display: flex;
@@ -658,11 +762,6 @@ p {
   justify-content: space-between;
   display: flex;
   flex-basis: 100%;
-}
-
-ul {
-  list-style-type: none;
-  padding-inline-start: 0;
 }
 
 .select-text {

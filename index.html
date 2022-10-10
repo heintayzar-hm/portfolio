@@ -18,13 +18,22 @@
             </a>
             <nav>
         
-                <img src="resources/humburger.svg" class="icons hidden-if-large" alt="menu">
+                <img id="hamburger-btn" src="resources/humburger.svg" class="icons hidden-if-large pointer" alt="menu">
 
                 <ul class="menu show-if-large hidden-if-small">
                     <li class="p-for-textbox"><a data-replace="Portfolio" href="#portfolio"><span class="text">Portfolio</span></a></li>
                     <li class="p-for-textbox"><a data-replace="About" href="#about"><span class="text">About</span></a></li>
                     <li class="p-for-textbox"><a data-replace="Contact" href="#contact"><span class="text">Contact</span></a></li>
                 </ul>
+
+                <div id="mobile-menu" class="mobile-menu hidden">
+                    <img id="cross-btn" class="pointer" src="resources/cross.svg" alt="cross">
+                    <ul>
+                        <li class="mobile-link"><a data-replace="Portfolio" href="#portfolio"><span class="text">Portfolio</span></a></li>
+                        <li class="mobile-link"><a data-replace="About" href="#about"><span class="text">About</span></a></li>
+                        <li class="mobile-link"><a data-replace="Contact" href="#contact"><span class="text">Contact</span></a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -337,6 +346,8 @@
         </div>
         <img src="resources/Home_Indicator/Shape.svg" width="150" height="20" alt="separator" class="hidden-if-large separator">
     </section>
+
+    <script src="main.js" defer></script>
 </body>
 
 </html>
