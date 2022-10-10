@@ -37,6 +37,14 @@
   font-size: 32px;
   line-height: 44px;
 }
+
+.hidden {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
 @media only screen and (max-width: 767px) {
   .navbar {
     display: flex;

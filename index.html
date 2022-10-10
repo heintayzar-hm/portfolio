@@ -18,7 +18,7 @@
             </a>
             <nav>
         
-                <img src="resources/humburger.svg" class="icons hidden-if-large" alt="menu">
+                <img id="hamburger-btn" src="resources/humburger.svg" class="icons hidden-if-large pointer" alt="menu">
 
                 <ul class="menu show-if-large hidden-if-small">
                     <li class="p-for-textbox"><a data-replace="Portfolio" href="#portfolio"><span class="text">Portfolio</span></a></li>
@@ -26,12 +26,12 @@
                     <li class="p-for-textbox"><a data-replace="Contact" href="#contact"><span class="text">Contact</span></a></li>
                 </ul>
 
-                <div class="mobile-menu">
-                    <img src="resources/cross.svg" alt="cross">
+                <div id="mobile-menu" class="mobile-menu hidden">
+                    <img id="cross-btn" class="pointer" src="resources/cross.svg" alt="cross">
                     <ul>
-                        <li class=""><a href="#works">Portfolio</a></li>
-                        <li class=""><a href="#about-myself">About</a></li>
-                        <li class=""><a href="#contact-form">Contact</a></li>
+                        <li class="mobile-link"><a href="#portfolio">Portfolio</a></li>
+                        <li class="mobile-link"><a href="#about">About</a></li>
+                        <li class="mobile-link"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
