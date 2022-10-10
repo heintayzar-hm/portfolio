@@ -4,7 +4,39 @@
 .margin-0 {
   margin: 0;
 }
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(7px);
+}
 
+.mobile-menu img {
+  position: absolute;
+  top: 62px;
+  right: 10.13%;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  list-style-type: none;
+  position: absolute;
+  top: 106px;
+  left: 28px;
+}
+
+.mobile-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
 @media only screen and (max-width: 767px) {
   .navbar {
     display: flex;
