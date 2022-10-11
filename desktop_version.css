@@ -12,6 +12,23 @@
     width: 100%;
   }
 
+  .pop-up-header-span {
+    margin-bottom: 30px;
+    gap: 15px;
+  }
+
+  .pop-up-footer {
+    display: grid;
+    grid-template-columns: 68% 30%;
+    gap: 30px;
+    padding: 60px 0 60px 0;
+  }
+
+  .pop-up-buttons {
+    flex-wrap: wrap;
+    gap: 20px
+  }
+
   .header-container {
     display: flex;
     height: 100%;
@@ -168,7 +185,7 @@
     flex-direction: row;
     align-items: center;
     padding: 1px;
-    gap: 6px;
+    gap: 15px;
   }
 
   .card-header-frame-client {
