@@ -9,6 +9,14 @@ a:active {
   text-decoration: none;
 }
 
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -66,9 +74,8 @@ ul {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(193, 199, 208,0.8);
+  background-color: rgba(193, 199, 208, 0.8);
   backdrop-filter: blur(7px);
-  display: flex;
   align-items: center;
   justify-content: center;
   display: none;
@@ -78,6 +85,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .pop-up-header h2 {
@@ -89,7 +97,7 @@ ul {
 }
 
 .w-full {
-  width: 100%
+  width: 100%;
 }
 
 .pop-up-header div {
@@ -117,21 +125,21 @@ ul {
 
 .pop-up-img {
   width: 100%;
+  height: 67%;
   object-fit: cover;
 }
 
 .pop-up-card p {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 30px;
   color: #344563;
 }
 
-.pop-up-buttons{
+.pop-up-buttons {
   display: flex;
   justify-content: space-between;
 }
-
 
 .w-136 {
   width: 136px;
@@ -151,6 +159,7 @@ ul {
   justify-content: center;
   gap: 5px;
 }
+
 @media only screen and (max-width: 767px) {
   .navbar {
     display: flex;
@@ -164,7 +173,18 @@ ul {
     padding: 15px 0 15px 0;
   }
 
+  .pop-up-card p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
 
+  .pop-up-img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+  }
 
   .gradient-to-right {
     background: -webkit-linear-gradient(-225deg, red, #000b6e, rgba(22, 205, 22, 0.963));
@@ -301,14 +321,9 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    gap: 12px;
-    width: 295px;
-    height: 80px;
   }
 
   .card-header-text {
-    width: 295px;
-    height: 36px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -320,21 +335,15 @@ ul {
 
   .card-header-frame {
     display: flex;
+    flex-flow: row wrap;
     flex-direction: row;
     align-items: center;
     padding: 1px;
-    gap: 12px;
-    width: 236px;
-    height: 32px;
+    gap: 15px;
   }
 
   .card-header-frame-client {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 8px 1px;
-    width: 55px;
-    height: 32px;
   }
 
   .card-header-frame-client-text {
@@ -347,17 +356,10 @@ ul {
   }
 
   .card-header-frame-role {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 8px 1px;
-    width: 88px;
-    height: 32px;
   }
 
   .card-header-frame-role-text {
-    width: 88px;
-    height: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -367,12 +369,7 @@ ul {
   }
 
   .card-header-frame-year {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 8px 1px;
-    width: 29px;
-    height: 32px;
   }
 
   .card-header-frame-year-text {
@@ -405,9 +402,8 @@ ul {
 
   .card-tags {
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     gap: 8px;
-    width: 203px;
     height: 24px;
   }
 
@@ -765,14 +761,6 @@ ul {
   display: flex;
   width: 327px;
   height: 20px;
-}
-
-p {
-  display: block;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
 }
 
 .button-link {
