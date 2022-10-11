@@ -9,7 +9,7 @@ const projects = [
       big: 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.',
     },
     technologies: ['HTML', 'CSS', 'Ruby on Rails'],
-    links: ['https://github.com', 'https://heroku.com'],
+    links: ['https://heintayzar-hm.github.io/portfolio-1-microverse/', 'https://github.com/heintayzar-hm/portfolio-1-microverse.git'],
   },
   {
     id: '1',
@@ -21,7 +21,7 @@ const projects = [
       big: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus, quis debitis explicabo aliquam voluptates? Molestias, ipsam voluptas. Aperiam ut voluptate, cumque iste nam neque. Numquam sunt eligendi corporis labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus, quis debitis explicabo aliquam voluptates? Molestias, ipsam voluptas. Aperiam ut voluptate, cumque iste nam neque. Numquam sunt eligendi corporis labore.',
     },
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    links: ['https://github.com', 'https://heroku.com'],
+    links: ['https://heintayzar-hm.github.io/portfolio-1-microverse/', 'https://github.com/heintayzar-hm/portfolio-1-microverse.git'],
   },
   {
     id: '2',
@@ -33,7 +33,7 @@ const projects = [
       big: 'A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required. A daily selection of privately personalized reads; no accounts or sign-ups required.',
     },
     technologies: ['HTML', 'CSS', 'Ruby on Rails'],
-    links: ['https://github.com', 'https://heroku.com'],
+    links: ['https://heintayzar-hm.github.io/portfolio-1-microverse/', 'https://github.com/heintayzar-hm/portfolio-1-microverse.git'],
   },
   {
     id: '3',
@@ -45,7 +45,7 @@ const projects = [
       big: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus, quis debitis explicabo aliquam voluptates? Molestias, ipsam voluptas. Aperiam ut voluptate, cumque iste nam neque. Numquam sunt eligendi corporis labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum possimus, quis debitis explicabo aliquam voluptates? Molestias, ipsam voluptas. Aperiam ut voluptate, cumque iste nam neque. Numquam sunt eligendi corporis labore.',
     },
     technologies: ['HTML', 'CSS', 'Ruby on Rails'],
-    links: ['https://github.com', 'https://heroku.com'],
+    links: ['https://heintayzar-hm.github.io/portfolio-1-microverse/', 'https://github.com/heintayzar-hm/portfolio-1-microverse.git'],
   },
 ];
 
