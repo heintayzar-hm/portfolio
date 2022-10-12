@@ -17,6 +17,11 @@ p {
   margin-inline-end: 0;
 }
 
+#email-message {
+  color:#fff;
+  font-size: large;
+}
+
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -837,6 +842,18 @@ ul {
 
 .invisible {
   visibility: hidden;
+}
+
+#email {
+  width: 50%;
+  padding: 8px;
+}
+
+#email-message::before {
+  position: relative;
+  top: 5px;
+  padding-right: 10px;
+  content: url('resources/danger.png');
 }
 
 .about-me-select-text {

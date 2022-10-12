@@ -178,8 +178,10 @@
         <label for="name" id="name" class="invisible">Name</label>
 
         <input class="contact-me-form-email" name="email" type="email" placeholder="Email address" required>
-        <label for="email" id="email" class="invisible">Email</label>
-
+        <label for="email" id="email" class="">
+            <span id="email-message">Email is invalid</span>
+        </label>
+            
         <textarea name="message" class="contact-me-form-textarea mb-20" placeholder="Write your messages here" maxlength="500" required></textarea>
         <label for="message" id="message" class="invisible">Message</label>
         <div class="contact-me-form-button-container">
