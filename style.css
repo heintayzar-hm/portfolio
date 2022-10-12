@@ -17,6 +17,12 @@ p {
   margin-inline-end: 0;
 }
 
+#email-message {
+  color: #fff;
+  font-size: large;
+  display: none;
+}
+
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -495,7 +501,6 @@ ul {
   }
 
   .contact-section {
-    height: 779px;
     background: #6070ff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -529,6 +534,7 @@ ul {
   }
 
   .contact-me-form {
+    gap: 20px;
     display: flex;
     flex-direction: column;
     width: 327px;
@@ -837,6 +843,12 @@ ul {
 
 .invisible {
   visibility: hidden;
+}
+
+#email {
+  width: 100%;
+  padding: 8px;
+  background-color: red;
 }
 
 .about-me-select-text {
