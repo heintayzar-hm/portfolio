@@ -401,9 +401,9 @@
   }
 
   .contact-section {
+    height: 800px;
     border-top-left-radius: 200px 200px;
     background: #6070ff;
-    height: 779px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -444,10 +444,10 @@
   }
 
   .contact-me-form {
+    gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 45px;
   }
 
   .contact-me-form-email {

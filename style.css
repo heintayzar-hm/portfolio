@@ -18,7 +18,7 @@ p {
 }
 
 #email-message {
-  color:#fff;
+  color: #fff;
   font-size: large;
   display: none;
 }
@@ -501,7 +501,6 @@ ul {
   }
 
   .contact-section {
-    height: 779px;
     background: #6070ff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -535,6 +534,7 @@ ul {
   }
 
   .contact-me-form {
+    gap: 20px;
     display: flex;
     flex-direction: column;
     width: 327px;
@@ -846,15 +846,9 @@ ul {
 }
 
 #email {
-  width: 50%;
+  width: 100%;
   padding: 8px;
-}
-
-#email-message::before {
-  position: relative;
-  top: 5px;
-  padding-right: 10px;
-  content: url('resources/danger.png');
+  background-color: red;
 }
 
 .about-me-select-text {
