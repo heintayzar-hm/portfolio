@@ -189,3 +189,19 @@ btnProjects.forEach(
     });
   },
 );
+
+const form = document.querySelector('#form');
+const emailMessage = document.querySelector('#email-message');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if(form.elements['email'].value === form.elements['email'].value.toLowerCase()) {
+    form.submit();
+  } else {
+    emailMessage.textContent = `Please your email should be in lowercase. Suggestion : ${form.elements['email'].value.toLowerCase()}`;
+    emailMessage.style.display = 'block';
+    form.elements['email'].addEventListener('input', () => {
+      emailMessage.textContent = '';
+      emailMessage.style.display = 'none';
+    })
+  }
+})

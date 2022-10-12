@@ -20,6 +20,7 @@ p {
 #email-message {
   color:#fff;
   font-size: large;
+  display: none;
 }
 
 ul {
