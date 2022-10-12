@@ -9,6 +9,14 @@ a:active {
   text-decoration: none;
 }
 
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 ul {
   list-style-type: none;
   padding-inline-start: 0;
@@ -59,17 +67,123 @@ ul {
   cursor: pointer;
 }
 
+.pop-up {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  backdrop-filter: blur(7px);
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.pop-up-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.pop-up-header h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.pop-up-header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pop-up-header-span {
+  display: flex;
+}
+
+.pop-up-header div img {
+  height: 100%;
+  cursor: pointer;
+}
+
+.pop-up-card {
+  background-color: #fff;
+  width: 80%;
+  height: 80%;
+  overflow-y: scroll;
+  padding: 16px;
+}
+
+.pop-up-img {
+  width: 100%;
+  height: 67%;
+  object-fit: cover;
+}
+
+.pop-up-card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+}
+
+.pop-up-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w-136 {
+  width: 136px;
+}
+
+.w-146 {
+  width: 146px;
+}
+
+.p-3 {
+  padding-left: 3px;
+}
+
+.btn-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
 @media only screen and (max-width: 767px) {
   .navbar {
     display: flex;
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 5;
     background-color: #fff;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 15px 0 15px 0;
+  }
+
+  .pop-up-card p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .pop-up-img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
   }
 
   .gradient-to-right {
@@ -207,14 +321,9 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-    gap: 12px;
-    width: 295px;
-    height: 80px;
   }
 
   .card-header-text {
-    width: 295px;
-    height: 36px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -226,21 +335,15 @@ ul {
 
   .card-header-frame {
     display: flex;
+    flex-flow: row wrap;
     flex-direction: row;
     align-items: center;
     padding: 1px;
-    gap: 12px;
-    width: 236px;
-    height: 32px;
+    gap: 15px;
   }
 
   .card-header-frame-client {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 8px 1px;
-    width: 55px;
-    height: 32px;
   }
 
   .card-header-frame-client-text {
@@ -253,17 +356,10 @@ ul {
   }
 
   .card-header-frame-role {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 8px 1px;
-    width: 88px;
-    height: 32px;
   }
 
   .card-header-frame-role-text {
-    width: 88px;
-    height: 16px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -273,12 +369,7 @@ ul {
   }
 
   .card-header-frame-year {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 8px 1px;
-    width: 29px;
-    height: 32px;
   }
 
   .card-header-frame-year-text {
@@ -311,9 +402,8 @@ ul {
 
   .card-tags {
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     gap: 8px;
-    width: 203px;
     height: 24px;
   }
 
@@ -671,14 +761,6 @@ ul {
   display: flex;
   width: 327px;
   height: 20px;
-}
-
-p {
-  display: block;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
 }
 
 .button-link {
